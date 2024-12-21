@@ -1,0 +1,16 @@
+# General variables
+app_name    = "devops"
+environment = "test"
+region      = "us-east-2"
+
+# Network variables
+ip_address_prefix = "10.0.0"
+dev_ip_address    = "22.267.121.8/32"
+
+# EC2 variables
+instance_type        = "t2.micro"
+ami_id               = "ami-00eb69d236edcfaf8"
+key_pair             = "test-key"
+iam_instance_profile = "instance-profile"
+script_name          = "setup.sh"
+instance_name        = "instance"
